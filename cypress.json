@@ -1,0 +1,8 @@
+{
+  "projectId": "n54w4o",
+  "baseUrl": "https://www.lambdatest.com/selenium-playground",
+  "defaultCommandTimeout": 5000,
+  "video": true,
+  "screenshotOnRunFailure": true,
+  "log": true
+}

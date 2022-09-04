@@ -1,0 +1,39 @@
+{
+   "lambdatest_auth": {
+      "username": "priyait238",
+      "access_key": "1JwmOI3PI9wGA6FxUsYvaU0KbFlLPef4RgCplmNwHn4DFQ6RZ3"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "86"
+         ]
+      },
+      {
+         "browser": "Firefox",
+         "platform": "macOS Monterey",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "cypress_config_file": "cypress.json",
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "build-name",
+      "parallels": 1,
+      "specs": "./cypress/integration/*.spec.js",
+      "ignore_files": "",
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         "cypress": "9.6.0"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": true,
+      "tunnel_name": "lt-cypress-tunnel"
+   }
+}
